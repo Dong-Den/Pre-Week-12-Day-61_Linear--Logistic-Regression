@@ -77,7 +77,8 @@ class LogisticRegressionNumpy:
         self.b= None
         self.losses= []
     def initialize_parameters(self, n_features):
-        #------------
+        #------------chưa hoàn thiện
+
 
 @st.cache_data
 def load_advertising_data():
@@ -94,7 +95,9 @@ def load_social_network_data():
 
     df= df.dropna()
 
-    #--------
+    #-------- chưa hoàn thiện
+
+
 
 with st.sidebar:
     st.image("https://img.icons8.com/color/96/000000/statistics.png", width=100)
@@ -328,4 +331,5 @@ else: ##social Network Analysis
 
     with tabs[0]:
 
+# chưa hoàn thiện___
 ## 473 code
